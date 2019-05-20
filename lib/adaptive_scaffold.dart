@@ -11,8 +11,8 @@ class AdaptiveScaffold extends StatelessWidget {
       return CupertinoApp(
         home: CupertinoPageScaffold(
           child: XylophoneApp(),
-          backgroundColor: Colors.white,
-          navigationBar: CupertinoNavigationBar(
+          backgroundColor: Colors.white70,
+          /*navigationBar: CupertinoNavigationBar(
             backgroundColor: Colors.redAccent,
             heroTag: Text(
               "Xylophone App",
@@ -21,15 +21,15 @@ class AdaptiveScaffold extends StatelessWidget {
                 fontSize: 18.0,
               ),
             ),
-          ),
+          ),*/
         ),
       );
     } else {
       return MaterialApp(
         home: Scaffold(
           body: XylophoneApp(),
-          backgroundColor: Colors.white,
-          appBar: AppBar(
+          backgroundColor: Colors.white70,
+          /*appBar: AppBar(
             backgroundColor: Colors.redAccent,
             title: Text(
               "Xylophone App",
@@ -38,7 +38,7 @@ class AdaptiveScaffold extends StatelessWidget {
                 fontSize: 18.0,
               ),
             ),
-          ),
+          ),*/
         ),
       );
     }
