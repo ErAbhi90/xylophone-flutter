@@ -11,11 +11,11 @@ class AdaptiveScaffold extends StatelessWidget {
       return CupertinoApp(
         home: CupertinoPageScaffold(
           child: XylophoneApp(),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.white,
           navigationBar: CupertinoNavigationBar(
             backgroundColor: Colors.redAccent,
             heroTag: Text(
-              "Dicee",
+              "Xylophone App",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
@@ -28,11 +28,11 @@ class AdaptiveScaffold extends StatelessWidget {
       return MaterialApp(
         home: Scaffold(
           body: XylophoneApp(),
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.white,
           appBar: AppBar(
             backgroundColor: Colors.redAccent,
             title: Text(
-              "Dicee",
+              "Xylophone App",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
